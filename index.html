@@ -19,30 +19,29 @@
   <p class="header-p"> get the latest news on how your code is doing right now in your inbox</p>
 	
 
-   
+  <h5 class="border-1">border</h5>
+  <h6 class="border-2">border</h6>
   <form action="index.html" method="post">
+    
+    
        
   <fieldset class="contact-info">
     
- 
-    <h5 class="border-1">border</h5>
-    <h6 class="border-2">border</h6>
-    
-    <h1 class="contact-info"> Contact Information </h1>
+    <legend class="contact-info"> Contact Information </legend>
 
-<div class="flex-pair">
+    <div class="flex-pair">
   <label class="focus" for="name"> Full Name</label>
-  <input type="text" id="name" name="user_name" placeholder="Required">
+  <input type="text" id="name" name="user_name" required placeholder="Required">
 </div>   
 
 <div class="flex-pair">      
   <label for="mail">Email Address</label>
-  <input type="email" id="mail" name="user_mail" placeholder="Required">
+  <input type="email" id="mail" name="user_mail" required placeholder="Required">
 </div>
  
 <div class="flex-pair">
-  <label for="number">Number</label>
-  <input type="number" id="number" name="user_number">
+  <label for="tel"> Phone Number</label>
+  <input type="tel" id="tel" name="user_tel">
 </div>
 
 <div class="flex-pair">         
@@ -124,8 +123,7 @@
     
     
   <fieldset>
-
-      <legend>Newsletter</legend>
+     <legend>Newsletter</legend>
     <h5 class="bottom-h5"> Select the news letter you would like to recive </h5>
           
   <input type="checkbox" id="htmlnews" value="html" name="user_html">  
@@ -141,8 +139,7 @@
 
 
 <fieldset>
-
-  <label for="html">Newsletters format </label><br>
+ <h2 class="format">Newsletter Format</h2><br>
   <input type="radio" id="html" value="html" name="user_html">
   
   <label for="html" class="light">HTML</label><br><br>
