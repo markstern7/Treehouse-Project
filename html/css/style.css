@@ -14,7 +14,7 @@ body{
 
 .contact-info{
   text-align:left;
-font-family: 'Merriweather', serif;}
+}
 
 .bottom-h5{
   color:gray;
@@ -34,6 +34,10 @@ font-family: 'Merriweather', serif;}
   color:gray;
 font-family: 'Merriweather', serif;}
 
+.contact-info{
+  margin-bottom:30px;
+}
+
 input::placeholder {
   text-align:right;
   font-family:Times, Times;color: gray;}
@@ -48,14 +52,19 @@ input::placeholder {
 
 .border-1{
   text-indent: -9999px;
-  border-top:solid;
+  border-top: solid; 
+  border-left: 20px;
   border-width:5px;
-margin-top: -30px;}
+  border-left: 20px;
+  margin-left:11.5em;
+  margin-right:12em;}
 
 .border-2{
   text-indent: -9999px;
   border-top:solid;
-  margin-top:-34px;}
+  margin-top:-34px;
+  margin-left:14.3em;
+  margin-right:14.8em}
 
 .border-3{
   text-indent: -9999px;
@@ -71,6 +80,8 @@ margin-bottom:-30px;}
 #address{height: 50px;}
  
 #city{height: 50px;}
+
+#tel{height: 50px;}
  
 #state{height: 50px;}
 
@@ -80,9 +91,9 @@ margin-bottom:-30px;}
 #bio{height: 200px;}
 
 .format{
-  font-size: 25px;
-  border-top: solid;
-  padding-top:35px;}
+  font-size: 18px;
+  color:gray;
+  font-family: 'Merriweather', serif;}
 
 .body-h1{
   text-align:center;
